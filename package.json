@@ -1,0 +1,12 @@
+{
+  "name": "verbalize",
+  "main": "lib/legibilidade-ptbr.js",
+  "version": "0.0.1",
+  "description": "Plugin de assistente de legibilidade para pt-BR no Inkdrop.",
+  "keywords": [],
+  "repository": "https://github.com/mtgr18977/verbalize-inkdrop",
+  "license": "MIT",
+  "engines": {
+    "inkdrop": ">=5.6.0 <7"
+  }
+}
