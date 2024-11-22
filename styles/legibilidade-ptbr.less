@@ -1,0 +1,26 @@
+/* styles/legibilidade-ptbr.less */
+
+.legibilidade-ptbr-highlight {
+    position: relative;
+  }
+  
+  .legibilidade-ptbr-highlight::after {
+    content: attr(title);
+    position: absolute;
+    background-color: var(--editor-background-color);
+    color: var(--editor-text-color);
+    padding: 4px 8px;
+    border-radius: 4px;
+    top: -1.5em;
+    left: 0;
+    white-space: nowrap;
+    z-index: 10;
+    font-size: 0.8em;
+    display: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .legibilidade-ptbr-highlight:hover::after {
+    display: block;
+  }
+  
