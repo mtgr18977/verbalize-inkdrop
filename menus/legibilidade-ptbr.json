@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    ".CodeMirror": [
+      {
+        "label": "Toggle legibilidade-ptbr",
+        "command": "legibilidade-ptbr:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "legibilidade-ptbr",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "legibilidade-ptbr:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
